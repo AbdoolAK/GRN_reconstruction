@@ -1,4 +1,4 @@
-**GRN Reconstruction**
+# __GRN Reconstruction__
 This repository contains code that was developed as part of the Bioinformatics & Biocomplexity MSc Thesis by Abdool Al-Khaledi at Utrecht University. The pipeline extends the capabilities of the DoRothEA network and DecoupleR’s Multivariate Linear Model (MLM) to generate cell type-specific Gene Regulatory Networks (GRNs). The generated networks can subsequently be employed for downstream analysis.
 
 In this case, two separate analyses were utilized to investigate Autism Spectrum Disorder (ASD) related genes. The first method was a distributional analysis of engineered metrics followed by a Gene Set Enrichment Analysis (GSEA). The second method involved an Ordinary Least Squares (OLS) regression analysis to model the ASD network subset as a function of total network size and time.
