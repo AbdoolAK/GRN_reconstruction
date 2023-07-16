@@ -11,3 +11,5 @@ GRN_reconstruction_pipeline: This script is responsible for the cell type-specif
 Network_distributional_analysis: This notebook utilizes whole data networks, although individual timepoint networks can also be used. The analysis quantifies metrics to measure GRN activity and ASD related network activity, identifies cell type-specific ASD related enrichment, and finally, performs GSEA on the ASD TF-gene subsets for the enriched cohort.
 
 Network_regression_analysis: This notebook makes use of the age delineated networks. The input should be a folder containing subdirectories for each timepoint, where each subdirectory contains cell-type specific GRNs. The notebook performs an OLS regression to delineate the effect of time on ASD related GRN activity.
+
+**Note: The notebooks can be downloaded if GitHub is unable to render them.**
