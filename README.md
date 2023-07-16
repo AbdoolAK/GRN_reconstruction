@@ -3,7 +3,7 @@ This repository contains code that was developed as part of the Bioinformatics &
 
 In this case, two separate analyses were utilized to investigate Autism Spectrum Disorder (ASD) related genes. The first method was a distributional analysis of engineered metrics followed by a Gene Set Enrichment Analysis (GSEA). The second method involved an Ordinary Least Squares (OLS) regression analysis to model the ASD network subset as a function of total network size and time.
 
-**Repository Contents**
+# **Repository Contents**
 Mouse orthologues of SFARI genes: This directory contains the "autism_genes.csv" file, which lists ASD-related genes curated by The Simons Foundation Autism Research Initiative (SFARI), as well as the mouse orthologues of these genes.
 
 GRN_reconstruction_pipeline: This script is responsible for the cell type-specific reconstruction of GRNs. The pipeline requires a clustered single cell/nucleus RNA-seq CellXGene matrix as input and outputs cell type-specific networks averaged across all time points (as network .csv files). If the age delineated method is used, a folder for each timepoint is created containing the cell type-specific networks of the respective timepoint. The generated networks can be used in downstream analysis.
